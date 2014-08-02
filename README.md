@@ -15,7 +15,7 @@ Paja Bartikova
 Jakub Kvita - kvitajakub@gmail.com
 
 ## Application gallery
-![ScreenShot](https://raw.githubusercontent.com/kvitajakub/DieCurve/master/_screenshots/01.PNG)
-![ScreenShot](https://raw.githubusercontent.com/kvitajakub/DieCurve/master/_screenshots/02.PNG)
-![ScreenShot](https://raw.githubusercontent.com/kvitajakub/DieCurve/master/_screenshots/03.PNG)
-![ScreenShot](https://raw.githubusercontent.com/kvitajakub/DieCurve/master/_screenshots/04.PNG)
+![ScreenShot](_screenshots/01.PNG)
+![ScreenShot](_screenshots/02.PNG)
+![ScreenShot](_screenshots/03.PNG)
+![ScreenShot](_screenshots/04.PNG)
