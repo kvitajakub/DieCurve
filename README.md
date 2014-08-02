@@ -7,9 +7,9 @@ Run cervi.html to start and click on first button 'Lokalni hra'.
 Created in November 2012.
 
 ## Authors
-* Ondrej Cienciala
-* Paja Bartikova
-* Jakub Kvita - kvitajakub@gmail.com
+* **Ondrej Cienciala**
+* **Paja Bartikova**
+* **Jakub Kvita** - kvitajakub@gmail.com
 
 ## Application gallery
 ![ScreenShot](_screenshots/01.PNG)
