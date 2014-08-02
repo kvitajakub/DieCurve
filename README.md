@@ -14,5 +14,4 @@ Created in November 2012.
 ## Application gallery
 ![ScreenShot](_screenshots/01.PNG)
 ![ScreenShot](_screenshots/02.PNG)
-![ScreenShot](_screenshots/03.PNG)
-![ScreenShot](_screenshots/04.PNG)
+For more look into directory [_screenshots](_screenshots/).
