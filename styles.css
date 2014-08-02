@@ -1,0 +1,487 @@
+body
+{
+    /*background-color:black;*/
+    color: #cccccc;
+
+    background-image: linear-gradient(bottom, rgb(250,131,87) 38%, rgb(80,207,120) 69%);
+    background-image: -o-linear-gradient(bottom, rgb(250,131,87) 38%, rgb(80,207,120) 69%);
+    background-image: -moz-linear-gradient(bottom, rgb(250,131,87) 38%, rgb(80,207,120) 69%);
+    background-image: -webkit-linear-gradient(bottom, rgb(250,131,87) 38%, rgb(80,207,120) 69%);
+    background-image: -ms-linear-gradient(bottom, rgb(250,131,87) 38%, rgb(80,207,120) 69%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.38, rgb(250,131,87)),
+        color-stop(0.69, rgb(80,207,120))
+        );
+}
+
+#head
+{
+    /*    background-color: black;*/
+    width: 100%;
+    height: 170px;
+}
+
+#head h1 a
+{
+    background-image: url('img/cerv.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 170px;
+    display: block;
+}
+
+#head h1 a span
+{
+    display: none;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.show
+{
+    visibility: visible;
+    display: block;
+}
+
+.hide
+{
+    visibility: hidden;
+    display: none;
+}
+
+
+#frame
+{
+    /*background-color:#505050;*/
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 600px;
+    border: 5px solid coral;
+    background-color: black;
+    border-radius: 3em 3em 3em 3em;
+}
+
+.player_name input
+{
+    background: rgb(245,245,245);
+    border: darkgray solid 1px;
+    padding: 1px 4px;
+    border-radius: 4px;
+}
+
+#jmenoNaSiti
+{
+    background: rgb(245,245,245);
+    border: darkgray solid 1px;
+    padding: 3px 4px;
+    border-radius: 4px;
+}
+
+.player_control select
+{
+    background: rgb(245,245,245);
+    border: darkgray solid 1px;
+    border-radius: 4px;
+}
+
+#sitOvladani
+{
+    background: rgb(245,245,245);
+    border: darkgray solid 1px;
+    border-radius: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.player_delete
+{
+    position: relative;
+    top: 3px;
+    margin-top: 5px;
+}
+
+.add_player_img
+{
+    text-align: center;
+    height: 43px;
+    width: 44px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nadpis_img
+{
+    text-align: center;
+}
+
+#pocetBodu
+{
+    background  : rgb(245,245,245);
+    border: darkgray solid 1px;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+#herniPlocha
+{
+    /*background-color:#3a3a3a;*/
+    /*  border-color:#a0a0a0;
+    border-style:solid;
+    border-width:3px; */
+    border-right: 5px solid coral;
+    background-color: black;
+    border-radius: 3em 0em 0em 3em;
+    -moz-border-radius: 3em 0em 0em 3em;
+    -webkit-border-radius: 3em 0em 0em 3em;
+    -o-border-radius: 3em 0em 0em 3em;
+}
+
+.right
+{
+    text-align: left;
+    float: right;
+}
+
+.left
+{
+    text-align: left;
+    float: left;
+}
+
+.backButton
+{
+    margin-left: 25px;
+}
+
+.forwardButton
+{
+    margin-right: 25px;
+}
+
+#res
+{
+    margin-top:30px;
+    width: 120px;
+    height: 200px;
+}
+
+.plocha
+{  
+    width: 900px;
+    height: 500px;
+}
+
+#plocha_nastaveni1
+{
+    width: 900px;
+    height: 450px;
+}
+
+#plocha_nastaveni2
+{
+    width: 900px;
+    height: 50px;
+}
+
+#hra .forwardButton
+{
+    margin-right: 25px;
+    margin-top: 270px;
+}
+
+.autori
+{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.button 
+{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px 20px;
+    background: -moz-linear-gradient(
+        top,
+        #50d078 0%,
+        #50cf78 25%,
+        #fa8357 75%,
+        #fa8357);
+    background: -o-linear-gradient(
+        top,
+        #50d078 0%,
+        #50cf78 25%,
+        #fa8357 75%,
+        #fa8357);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#50d078),
+        color-stop(0.25, #50cf78),
+        color-stop(0.75, #fa8357),
+        to(#fa8357));
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    border: 3px solid #ff7f50;
+    -moz-box-shadow:
+        0px 1px 3px rgba(255,127,80,0.5),
+        inset 0px 0px 10px rgba(255,127,80,0.7);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(255,127,80,0.5),
+        inset 0px 0px 10px rgba(255,127,80,0.7);
+    box-shadow:
+        0px 1px 3px rgba(255,127,80,0.5),
+        inset 0px 0px 10px rgba(255,127,80,0.7);
+    text-shadow:
+        0px -1px 0px rgba(0,0,0,0.4),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+.button:hover 
+{
+    background: #50d078;
+}
+.button:active 
+{
+    background: #fa8357;
+}
+
+.srdce
+{
+    width: 9%;
+}
+
+.kriz
+{
+    width: 9%;
+}
+
+#hraci
+{
+    height: 280px;
+    width: 720px;
+    overflow: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hraci table
+{
+    table-layout: fixed;
+    width: 700px;
+    text-align: center;
+    margin: 0px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#nadpis
+{
+    table-layout: fixed;
+    width: 700px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#maxBodu
+{
+    table-layout: fixed;
+    width: 600px;
+    margin: 5px 80px 15px auto;
+}
+
+#maxBodu tr :first-child
+{
+    text-align: right;
+}
+
+#maxBodu tr :last-child
+{
+    text-align: left;
+}
+
+#endGame table
+{
+    table-layout: auto;
+    width: 300px;
+    margin: 5px auto 15px auto; 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#endGame tr :first-child
+{
+    text-align: center;
+}
+
+#endGame tr :last-child
+{
+    text-align: center;
+}
+
+.highlight tr:hover
+{
+    background: #250500;
+}
+
+#nadpisVysledku td
+{
+    padding-left: 10px;
+}
+
+#vysledky td
+{
+    font-size: 18px;
+    width: 310px;  
+    padding-bottom: 5px;
+}
+
+.barvaHrace
+{
+    margin-right: 2px;
+    background: rgb(245,245,245);
+    border: darkgrey solid 1px;
+    border-radius: 4px;
+}
+
+.colourPicker
+{
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 0px;
+}
+
+.colourPicker p a
+{
+    position: relative;
+    top: 4px
+}
+
+.add_player_img
+{
+    margin-top: 2px;
+}
+
+#sit
+{
+    text-align:right;
+    width:600px;
+    height:400px;
+}
+
+#sitoveHry
+{
+    table-layout: auto;
+    width: 350px;
+    margin: 45px auto 15px 100px; 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#sitoveHry td
+{
+    padding-bottom: 10px;
+    height:37px;
+    vertical-align: bottom;
+}
+
+#sitoveHry tr td:first-child
+{
+    text-align: left;
+}
+
+#sitoveNast
+{
+    margin: 87px 100px auto 0px;
+}
+
+#sitoveNast td
+{
+    padding-bottom: 20px;
+}
+
+.sitTlacitka
+{
+    margin: auto 150px auto auto;
+}
+
+#jquery-colour-picker
+{
+    background: #fafafa;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+
+    width: 180px;
+    padding: 10px 5px 5px 10px;
+
+    border: 1px solid #666;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+    z-index: 99;
+}
+
+#jquery-colour-picker h2
+{
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+#jquery-colour-picker ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    +zoom: 1;
+}
+
+#jquery-colour-picker ul:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+#jquery-colour-picker ul li
+{
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+#jquery-colour-picker ul li a
+{
+    display: block;
+
+    width: 13px;
+    height: 13px;
+
+    text-decoration: none;
+    text-indent: -100000px;
+    outline: 0;
+
+    border: 1px solid #aaa;
+}
+
+#jquery-colour-picker ul li a:hover
+{
+    border-color: #000;
+}

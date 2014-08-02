@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="jquery.colourPicker.css">
+      
+		<script>
+			var delta=0;
+		</script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="jquery.colourPicker.js"></script>
+		<script src="xydelta.js"></script>
+		<script src="script.js"></script>
+
+		<title> Cervi </title>
+	</head>
+    
+	<body>
+
+		<div id="head"> <!-- head -->
+			<h1><a href="cervi.html"><span>Cervi</span></a></h1>
+		</div> <!-- /head -->
+
+		<div id="frame">
+			<div class="show" id="main">
+				<div class="center">
+					<br/>
+					<br/>
+					<button id="buttonLokHra" class="button" type="button">Lokalni hra</button><br/>
+					<button id="buttonSitHra" class="button" type="button">Sitova hra</button><br/>
+					<button id="buttonTutor" class="button" type="button">Tutorial</button><br/>
+					<button id="buttonAutor" class="button" type="button">Autori</button>
+				</div>
+			</div>
+			
+            <div class="hide" id="nastaveni">
+
+                <div id="plocha_nastaveni1">
+                    <br/>
+                    <div class="nadpis_img">
+                        <img class="nadpis_img" src="img/nastaveni.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+                    
+                   <table id="nadpis">
+                        <tr>
+                            <td><img class="barva" src="img/barva.png" height="30" width="60" alt="add player"></td>
+                            <td><img class="jmeno" src="img/jmeno.png" height="30" width="80" alt="add player"></td>
+                            <td><img class="ovladani" src="img/ovladani.png" height="30" width="80" alt="add player"></td>
+                            <td><img class="odstranit" src="img/odstranit.png" height="30" width="90" alt="add player"></td>
+                        </tr>
+                    </table>
+                    
+                    <div id="hraci" class="highlight">
+                    <table>
+
+                        <!--   Tady je javascriptem generovane menu nastavovani hracu -->
+                     </table>
+                    </div> 
+                     
+                    <div class="add_player_img">
+                        <img class="add_player_img" src="img/plus.png" alt="add player">
+                    </div>
+
+                </div>
+
+                <div id="plocha_nastaveni2">
+                    <div class="nadpis_img">
+                        <img class="nadpis_img" src="img/nastaveni_hry.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+
+                    <table id="maxBodu">
+                        <tr>
+                           <td><img class="max_body" src="img/max_body.png" height="30" width="250" alt="body"></td>
+                           <td><input type="number" id="pocetBodu" min="0" max="999" step="2" value="35"/></td>
+                        </tr>
+                    </table>
+                </div>
+                
+				<div class="backButton left">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+
+				<div class="forwardButton right">
+                    <img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+                </div>
+			</div>
+			
+            <div class="hide" id="sitoveNastaveni">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                            <img class="nadpis_img" src="img/sit.png" height="50" width="400" alt="sit"/>
+                    </div>
+            
+                 <div class="right">
+                   <div id="sitoveNast">
+                   
+                     <table>
+                      <tr>
+                        <td>Jmeno:</td>
+                        <td><input id="jmenoNaSiti" size="18" maxlength="16"/></td>
+                      </tr>
+                      <tr>
+                        <td>Ovladani:</td>
+                         <td><select id="sitOvladani">
+                         <option>Q W</option>
+                         <option>A S</option>
+                         <option>X C</option>
+                         <option>E R</option>
+                         <option>D F</option>
+                         <option>V B</option>
+                         <option>G H</option>
+                         <option>N M</option>
+                         <option>U I</option>
+                         <option>J K</option>
+                         <option>O P</option>
+                     </select>
+                     </td>
+                      </tr>
+                     </table>
+                     
+                   
+                   </div>
+                   </div>
+            
+                   <div id="sit">
+                     <table id="sitoveHry" class="highlight">
+                        <tr>
+                           <td>Hra</td>
+                           <td>Pocet Hracu</td>
+                        </tr>
+                        <tr>
+                           <td>Jmeno</td>
+                           <td>2 / 5</td>
+                        </tr>
+                        <tr>
+                           <td>Zapomnel jsem</td>
+                           <td>1 / 5</td>
+                        </tr>
+                        <tr>
+                           <td>KAREL</td>
+                           <td>1 / 2</td>
+                        </tr>
+                        <tr>
+                           <td>Free for All</td>
+                           <td>5 / 8</td>
+                        </tr>
+                        <tr>
+                           <td>X</td>
+                           <td>4 / 5</td>
+                        </tr>
+                        <tr>
+                           <td>Pozor zatacim</td>
+                           <td>2 / 8</td>
+                        </tr>
+                     </table>
+                    
+                    <div class="sitTlacitka">
+                    <button class="button" id="sitNove" type="button">Nova hra</button>
+                    <button class="button" id="sitRefr" type="button">Refresh</button>
+                    </div>
+                    
+                   </div>
+
+                </div>
+
+                
+                
+				<div class="backButton left">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+
+			</div>
+
+			<div class="hide" id="credits">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                            <img class="nadpis_img" src="img/autori.png" height="50" width="400" alt="autori"/>
+                    </div>
+
+                    <div class="autori">
+                            <img class="autori" src="img/autors.png" height="347" width="657" alt="autori"/>
+                    </div>
+                </div>
+
+				<div class="backButton left">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+			</div>
+
+			<div class="hide" id="tutorial">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                        <img class="nadpis_img" src="img/tutorial.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+
+                    <div class="tut2">
+                        <img class="tut2" src="img/tut2.png" height="440" width="880"alt="tutorial">
+                    </div>
+                </div>
+
+                <div class="forwardButton right">
+                    <img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+                </div>
+
+				<div class="backButton">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+			</div>
+
+            <div class="hide" id="tutorial2">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                        <img class="nadpis_img" src="img/tutorial.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+
+                    <div class="tut">
+                        <img class="tut" src="img/tut.png" height="440" width="880"alt="tutorial">
+                    </div>
+                </div>
+
+                <div class="forwardButton right">
+                    <img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+                </div>
+
+				<div class="backButton">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+			</div>
+
+            <div class="hide" id="tutorial3">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                            <img class="nadpis_img" src="img/tutorial.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+
+                    <div class="tut3">
+                        <img class="tut3" src="img/tut3.png" height="440" width="880"alt="tutorial">
+                    </div>
+
+                </div>
+
+				<div class="forwardButton right">
+                    <img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+                </div>
+
+                <div class="backButton">
+					<img class="imgBack" src="img/back.png" height="100" width="100" alt="BACK"/>
+				</div>
+			</div>
+
+			<div class="hide" id="hra">
+
+				<div class="right">
+					<div id="res">
+					</div>
+
+					<div class="forwardButton right">
+						<img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+					</div>
+				</div>
+
+				<canvas id="herniPlocha" width="760" height="600"></canvas>
+			</div>
+
+			<div class="hide" id="endGame">
+                <div class="plocha">
+                    <br>
+                    <div class="nadpis_img">
+                            <img class="nadpis_img" src="img/vysledky.png" height="50" width="400" alt="nastaveni"/>
+                    </div>
+                    <table id="nadpisVysledku">
+                        <tr>
+                           <td><img class="jmeno" src="img/jmeno.png" height="30" width="80" alt="jmeno"></td>
+                           <td><img class="skore" src="img/skore.png" height="30" width="80" alt="skore"></td>
+                        </tr>
+                    </table>
+                    <table id="vysledky" class="highlight">
+                    </table>
+                </div>
+
+				<div class="forwardButton right">
+					<img class="imgForw" src="img/forward.png" height="100" width="100" alt="FORWARD"/>
+				</div>
+			</div>
+		</div>
+
+		<div id="pocatecni">
+		</div>
+		<div id="data">
+		</div>
+		<div id="data2">
+		</div>
+
+	</body>
+</html>
