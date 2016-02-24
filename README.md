@@ -2,7 +2,7 @@
 Local javascript copy of Curve Fever created as school project.
 It was during our first days so everything is in Czech, but still you will be able to play.
 
-Run cervi.html to start and click on first button 'Lokalni hra'. 
+Run cervi.html to start and click on first button 'Lokalni hra'.
 
 Created in November 2012.
 
@@ -14,4 +14,8 @@ Created in November 2012.
 ## Application gallery
 ![ScreenShot](_screenshots/01.PNG)
 ![ScreenShot](_screenshots/02.PNG)
-For more look into directory [_screenshots](_screenshots/).
+![ScreenShot](_screenshots/03.PNG)
+![ScreenShot](_screenshots/04.PNG)
+![ScreenShot](_screenshots/05.PNG)
+![ScreenShot](_screenshots/06.PNG)
+![ScreenShot](_screenshots/07.PNG)
